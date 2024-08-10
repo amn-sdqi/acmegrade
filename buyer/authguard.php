@@ -17,3 +17,4 @@ if ($_SESSION["usertype"] != "buyer") {
 }
 
 ?>
+<!DOCTYPE html>

@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px
+}
+
+.bg-custom1 {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle farthest-side at 0% 50%,
+            #282828 23.5%,
+            rgba(255, 170, 0, 0) 0) 21px 30px,
+        radial-gradient(circle farthest-side at 0% 50%,
+            #2c3539 24%,
+            rgba(240, 166, 17, 0) 0) 19px 30px,
+        linear-gradient(#282828 14%,
+            rgba(240, 166, 17, 0) 0,
+            rgba(240, 166, 17, 0) 85%,
+            #282828 0) 0 0,
+        linear-gradient(150deg,
+            #282828 24%,
+            #2c3539 0,
+            #2c3539 26%,
+            rgba(240, 166, 17, 0) 0,
+            rgba(240, 166, 17, 0) 74%,
+            #2c3539 0,
+            #2c3539 76%,
+            #282828 0) 0 0,
+        linear-gradient(30deg,
+            #282828 24%,
+            #2c3539 0,
+            #2c3539 26%,
+            rgba(240, 166, 17, 0) 0,
+            rgba(240, 166, 17, 0) 74%,
+            #2c3539 0,
+            #2c3539 76%,
+            #282828 0) 0 0,
+        linear-gradient(90deg, #2c3539 2%, #282828 0, #282828 98%, #2c3539 0%) 0 0 #282828;
+    background-size: 40px 60px;
+}
+
+.bg-custom2 {
+    background-color: transparent;
+    background-image: radial-gradient(#000000 1px, #e5e5f7 1px);
+    background-size: 30px 30px;
+    width: 100%;
+    height: 100%;
+}
