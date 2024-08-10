@@ -29,6 +29,7 @@ $db_result = mysqli_query($connection, $query);
                     <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>$dbRow[details]</li>
                     <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>$dbRow[price]</li>
                     <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>$dbRow[date]</li>
+                    <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>$dbRow[status]</li>
                 </ul>
             </div>
             ";
