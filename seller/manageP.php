@@ -31,8 +31,8 @@ $db_result = mysqli_query($connection, $query);
                     <div class='card-body '>
                         <h5 class='card-title'>$dbRow[p_name]</h5>
                         <p class='card-text'>$dbRow[details]</p>
-                        <a href='#' class='btn btn-warning'>EDIT</a>
-                        <a href='#' class='btn btn-danger'>DELETE</a>
+                        <a href='edit.php' class='btn btn-warning'>EDIT</a>
+                        <a href='deleteProduct.php?p_id=$dbRow[p_id]' class='btn btn-danger'>DELETE</a>
                     </div>
                 </div>
             </div>
