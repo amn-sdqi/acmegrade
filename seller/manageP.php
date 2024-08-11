@@ -10,7 +10,7 @@ $db_result = mysqli_query($connection, $query);
 
 
 ?>
-<title>seller-home</title>
+<title>Seller Manage Product</title>
 </head>
 
 <body class="bg-dark">

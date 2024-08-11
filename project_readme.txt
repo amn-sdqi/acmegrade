@@ -103,9 +103,9 @@ SELLER
         Edit - pending--To-Do
         Delete - done
     Manage Orders
-        View order - Done
-        Edit Order - ToDo
-        Close Order  
+        View order - Done    
+        Edit Order - Done
+        Close Order - Done
 BUYER
     Authentication - Done
     View Products - Done
