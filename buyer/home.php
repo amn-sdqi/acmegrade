@@ -28,7 +28,7 @@ $db_result = mysqli_query($connection, $query);
                     <div class='card-body '>
                         <h5 class='card-title'>$dbRow[p_name]</h5>
                         <p class='card-text'>$dbRow[details]</p>
-                        <a class='btn btn-info'>$dbRow[price]</a>
+                        <a class='btn btn-info'>₹$dbRow[price]</a>
                         <a href='addToCart.php?p_id=$dbRow[p_id]' class='btn btn-success'>ADD TO CART</a>
                     </div>
                 </div>

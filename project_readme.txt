@@ -100,7 +100,7 @@ SELLER
                 createddate
 
         View/Search - Done
-        Edit - pending--To-Do
+        Edit - Done
         Delete - done
     Manage Orders
         View order - Done    
@@ -117,8 +117,8 @@ BUYER
         delete - done
     Place order - done
     Payment Gateway - COD 
-    View/Track Orders 
-    Add Review
+    View/Track Orders -Done
+    Add Review  
     Return
 
 Delivery Partner
