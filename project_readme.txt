@@ -109,7 +109,7 @@ SELLER
 BUYER
     Authentication - Done
     View Products - Done
-    Search products
+    Search products 
     Compare Products 
     Manage Cart 
         Add - done
