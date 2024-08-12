@@ -11,6 +11,6 @@
 		<a class="text-light nav-link" href="orders.php">My Orders</a>
 	</li>
 	<li class="border m-3 border-danger-subtle nav-item rounded-pill bg-danger-subtle  ">
-		<a href="../../shared/logout.php" class="nav-link text-danger ">Logout</a>
+		<a href="../shared/logout.php" class="nav-link text-danger ">Logout</a>
 	</li>
 </ul>

@@ -15,10 +15,16 @@ $dest = "../shared/p_imgs/" . $_FILES['p_img']['name'];
 #------------------------------------
 
 move_uploaded_file($source, $dest);
+if ($_FILES['p_img']) {
+    # code...
+    $insert_query = "UPDATE product SET p_name='$pname' , price='$price' ,details='$detail',imgpath='$dest' WHERE p_id=$p_id";
+    mysqli_query($connection, $insert_query);
+} else {
+    $insert_query = "UPDATE product SET p_name='$pname' , price='$price' ,details='$detail' WHERE p_id=$p_id";
+    mysqli_query($connection, $insert_query);
+    
+}
 
-$insert_query = "UPDATE product SET p_name='$pname' , price='$price' ,details='$detail',imgpath='$dest' WHERE p_id=$p_id";
-
-mysqli_query($connection, $insert_query);
 
 
 

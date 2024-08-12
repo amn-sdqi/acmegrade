@@ -19,9 +19,8 @@ $dbRow = mysqli_fetch_assoc($dbResult);
 
 <body class="bg-dark">
     <?php include "nav.php"; ?>
-    <div class="d-flex justify-content-center align-items-center " style="height:75vh">
-        <div class="inline-block">
-            <!-- <img src="<?= $dbRow['imgpath'] ?>" alt="<?= $dbRow['p_name'] ?>" class=""> -->
+    <div class="d-flex justify-content-center align-item-center" style="height:75vh">
+        <div class="w-75 d-flex justify-content-center align-items-center">
             <form action="editProduct.php?p_id=<?= $dbRow["p_id"] ?>" method="post" enctype="multipart/form-data" class="w-45 px-2 py-3 d-flex flex-column">
                 <div class="text-white text-center mx-5 my-3 p-1 bg-danger rounded">
                     <h4>Edit Your Product</h4>
@@ -36,6 +35,7 @@ $dbRow = mysqli_fetch_assoc($dbResult);
                     <button class="btn btn-danger my-2 mx-2" type="submit">SAVE</button>
                 </div>
             </form>
+            <img src="<?= $dbRow['imgpath'] ?>" alt="<?= $dbRow['p_name'] ?>" class="image-fluid h-25 w-25 rounded">
         </div>
     </div>
 </body>
