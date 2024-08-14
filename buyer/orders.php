@@ -27,7 +27,7 @@ $db_result = mysqli_query($connection, $query);
                     <li class='m-1 p-0 h-75 w-75 list-group-item bg-custom1'><img src='$dbRow[imgpath]' alt='$dbRow[p_name]' class='rounded img-thumbnail bg-dark '></li>
                     <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>$dbRow[p_name]</li>
                     <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>$dbRow[details]</li>
-                    <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>$dbRow[price]</li>
+                    <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>₹$dbRow[price]</li>
                     <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>$dbRow[date]</li>
                     <li class='m-3 p-3 list-group-item bg-custom1 h-25 text-white rounded'>$dbRow[status]</li>
                 </ul>

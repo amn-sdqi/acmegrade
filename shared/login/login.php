@@ -26,25 +26,12 @@ if ($sql_result->num_rows == 0) {
 
 
     if ($dbrow['usertype'] == "buyer") {
-        header("location:../../buyer/home.php");
+        header("location: ../../buyer/home.php");
     } elseif ($dbrow['usertype'] == "seller") {
-        header("location:../../seller/home.php");
+        header("location: ../../seller/home.php");
     }
 }
 
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-
-</html>

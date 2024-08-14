@@ -54,10 +54,10 @@ $db_result = mysqli_query($connection, $query);
 
             echo " 
                 <div class='d-flex flex-row justify-content-center ' >
-                    <h4 class='bg-dark text-white m-3 p-2 rounded' style='width: 20rem;' >TOTAL PRICE :
+                    <h4 class='bg-dark text-white m-3 p-2 rounded' style='width: 20rem;' >TOTAL PRICE : ₹$totalPrice
                     </h4>
                         <a href='buy.php'>
-                            <button class='btn btn-success m-3 p-2'>₹ $totalPrice</button>
+                            <button class='btn btn-success m-3 p-2'>BUY </button>
                         </a>
                 </div>";
         }

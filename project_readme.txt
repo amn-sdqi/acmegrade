@@ -118,7 +118,7 @@ BUYER
     Place order - done
     Payment Gateway - COD 
     View/Track Orders -Done
-    Add Review  
+    Add Review  - Done
     Return
 
 Delivery Partner

@@ -25,7 +25,7 @@ $db_result = mysqli_query($connection, $query);
 
 
             echo "
-            <div class='align-center ' style='width: 20rem; display:inline-block;'>
+           <div class=' align-center m-3 ' style='width: 20rem; display:inline-block;'>
                 <div class='card m-3 p-2' >
                     <img src='$dbRow[imgpath]' class='card-img-top' alt=''>
                     <div class='card-body '>
